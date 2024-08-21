@@ -1,0 +1,62 @@
+
+body {
+    background: linear-gradient(to right, #02489c, #79e2ff);
+}
+
+.hero-section {
+    background-color: transparent;
+    color: white;
+    padding: 50px 20px;
+    max-width: 40rem;
+    margin-left: 10rem;
+}
+
+.trusted-by {
+    margin-bottom: 20px;
+    font-size: 18px;
+    background-color: #dff7e6;
+    padding: 10px 10px; 
+    max-width: fit-content;
+    border-radius: 10px;
+    color: #000000;
+}
+.trusted-by p{
+    color: black;
+}
+
+h1 {
+    font-size: 4.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.para {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.button-group {
+    margin-top: 20px;
+}
+
+.button-group button {
+    padding: 25px 35px;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.learn-skill-btn {
+    background-color: white;
+    color: #000000;
+    font-weight: 900;
+}
+
+.consult-btn {
+    background-color: #0051a2;
+    color: white;
+    font-weight: 900;
+}
