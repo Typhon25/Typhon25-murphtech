@@ -1,3 +1,4 @@
+
 document.addEventListener('DOMContentLoaded', () => {
     const img = document.querySelector('.img-1');
     if (img) {
