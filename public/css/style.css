@@ -398,5 +398,102 @@ margin-left: 5px;
         line-height: 25px;
     }
 
+    
+    #page4-heading h2{
+        margin-bottom: 1rem;
+        background-color:#241C32;
+        color:#A056EB;
+        max-width: fit-content;
+        font-size: 19px;
+        padding: 3px 10px;
+        border-radius: 10px;
+    }
+    #page4-heading{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 2.5rem;
+    
+    }
+    #page4-heading h1{
+        font-size: 3.3rem;
+        font-weight: 900;
+    }
+    #page4-heading h1 span{
+        color: #A85FF1;
+    }
+ .page4{
+min-height: 100vh;
+width: 100%;
+background-color: #17191E;
+padding: 5rem 0rem;
+margin-top: 2rem;
+ }
+
+
+    .page4-container {
+        display: flex;
+        gap: 40px;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+    
+    .page4-card {
+        background-color: #0D0F11;
+        border-radius: 10px;
+        padding: 40px 20px;
+        width: 550px;
+        text-align: center;
+    }
+    
+    .page4-card h2 {
+        color: #8b5cf6;
+        font-size: 24px;
+    }
+    
+    .skills img {
+        width: 100%;
+        margin: 5px;
+    }
+    
+    .features {
+        max-width: 80%;
+        margin-top: 20px;
+        text-align: left;
+    }
+   .features h1{
+    font-size: 2.5rem;
+   }
+   .features h1 span{
+    color: #A85FF1;
+   }
+   .features p{
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+    line-height: 25px;
+   }
+    
+    
+    #page4-button {
+        background-color: #8b5cf6;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 5px;
+        margin-top: 20px;
+        text-decoration: none;
+    }
+
+    .card-icons{
+        display: flex;
+        gap: 15px;
+    }
+    .card-icon2{
+        display: flex;
+        gap: 15px;
+    }
+    .ccc{
+        color: #A85FF1;
+    }
 
    
