@@ -1,62 +1,56 @@
 
 body {
-    background: linear-gradient(to right, #02489c, #79e2ff);
+    background: linear-gradient(to right, #1f2020, #747676);
 }
 
-.hero-section {
-    background-color: transparent;
+
+#all-courses{
+    overflow: hidden;
+    display: flex;
+    gap: 10px;
+}
+
+
+
+#courses{
+
+   
+    background-color: black;
+    min-width: 250px;
+    padding: 10px ;
+    margin-left: 10px;
+
+}
+
+#courses img{
+    width: fit-content;
+    height: fit-content;
+    object-fit: cover;
+}
+
+#image{
+    width: inherit;
+    height: 200px;
+    background-color: rgb(201, 48, 48);
+}
+
+h3{
     color: white;
-    padding: 50px 20px;
-    max-width: 40rem;
-    margin-left: 10rem;
+    margin-top: 10px;
+    font-size: 20px;
 }
-
-.trusted-by {
-    margin-bottom: 20px;
-    font-size: 18px;
-    background-color: #dff7e6;
-    padding: 10px 10px; 
-    max-width: fit-content;
-    border-radius: 10px;
-    color: #000000;
+h5{
+    color: rgb(198, 197, 197);
 }
-.trusted-by p{
-    color: black;
-}
-
-h1 {
-    font-size: 4.5rem;
-    font-weight: bold;
-    margin-bottom: 20px;
-}
-
-.para {
-    font-size: 1.2rem;
-    margin-bottom: 30px;
-    color: white;
-}
-
-.button-group {
-    margin-top: 20px;
-}
-
-.button-group button {
-    padding: 25px 35px;
-    margin: 10px;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    font-size: 16px;
-}
-
-.learn-skill-btn {
-    background-color: white;
-    color: #000000;
-    font-weight: 900;
-}
-
-.consult-btn {
-    background-color: #0051a2;
-    color: white;
-    font-weight: 900;
-}
+ a{
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 5px;
+    font-size: 15px;
+ }
+ .del{
+    color: red;
+ }
+ .ed{
+    color: rgb(182, 178, 178);
+ }
