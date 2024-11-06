@@ -4,16 +4,19 @@
 
 <div id="main">
     <h1>All Courses</h1>
+    <a href="/createcourse" class="create-user-link">Create User</a>
+
     <div id="all-courses">
-       <% users.forEach(function(e){ %>
+       <% users.forEach(function(user){ %>
         <div id="courses">
-            <div id="image"><img src="<%= users.image %>" alt=""></div>
-            <h3><%= users.name %></h3>
-            <h5><%= users.price %></h5>
+            <div id="image"><img src="<%= user.image %>" alt=""></div>
+            <h3><%= user.name %></h3>
+            <h5><%= user.price %></h5>
+
 
             <div id="edit-course">
-                <a class="ed" href="">Edit user</a>
-                <a class="del" href="">Delete user</a>
+                <a class="ed" href="/edit/<%= user._id %>">Edit Course</a>
+                <a class="del" href="/delete/<%= user._id %>">Delete Course</a>
             </div>
  </div>
        <%  })  %>
@@ -22,7 +25,6 @@
 </div>
 
 </div>
-
 
 
 

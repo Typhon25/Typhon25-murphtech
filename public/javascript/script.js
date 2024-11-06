@@ -14,3 +14,10 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 });
+
+const button = document.querySelector('.log');
+if (button) {
+    button.addEventListener('click', () => {
+        window.location.href = '/login'; 
+    });
+}

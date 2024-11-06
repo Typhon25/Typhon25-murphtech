@@ -118,6 +118,9 @@ p {
     cursor: pointer;
     transition: background-color 0.2s ease;
 }
+button:active {
+    transform: scale(0.95); 
+  }
 /* .btn .btn-text {
     display: inline-block;
     position: relative;
@@ -172,7 +175,7 @@ margin-left: 13rem;
         transform: translateY(0); 
     }
     50% {
-        transform: translateY(-50px);
+        transform: translateY(-60px);
     }
 }
 

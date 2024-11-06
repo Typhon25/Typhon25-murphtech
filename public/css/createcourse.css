@@ -16,6 +16,7 @@ html,body{
 h1{
     color: white;
     font-size: 50px;
+    margin-left: 2rem;
 
 }
 
@@ -24,3 +25,12 @@ h1{
    margin-right: 5px;
 }
 
+#courses{
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+.create-user-link{
+    display: inline-block;
+    margin-left: 2rem;
+}
